@@ -35,7 +35,7 @@ export default function HomePage() {
         <header className='bg-dark'>
         <Container className='d-flex p-3' style={{justifyContent:"space-between",
         alignItems:"center"}}>
-        <h3 style={{color:"white"}}>Manage Your Inventory</h3>
+        <h4 style={{color:"white"}}>Manage Your Inventory</h4>
         {email && <Button variant='dark' onClick={handleLogOut}>LogOut</Button>}
         </Container>
         </header>
